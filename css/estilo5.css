@@ -1,0 +1,97 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: yellow;
+    
+}
+
+header h1 {
+    text-align: left;
+}
+header {
+    background-color: red;
+    padding: 10px;
+    /*
+    position: relative;
+    left: 15px;
+    align-content: center;
+
+    No he conseguido alinear los contenido de header
+ */
+}
+
+h1.container {
+    text-align: left;
+}
+form.container{
+    text-align: right;
+}
+
+
+#seccion-subcripcion {
+    background-color: darkcyan;
+    padding: 10px;
+    margin-left: 10px;
+    /* Tampoco he podido alinear los contenidos de esta seccion*/
+
+}
+
+
+#main {
+    background-color: black
+    ;
+}
+
+footer {
+    background: purple;
+    text-align: center;
+    padding:20px;
+    margin-top: 20px;
+}
+
+#titulo-principal {
+    margin-left: 20px;
+    float: left;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: auto;
+    overflow: hidden; /* Esto se utiliza para que los hijos no hereden las
+                    característica de la caja padre*/
+
+}
+
+#columna-principal {
+    padding: 10px;
+    width: 65%;
+    background-color: aqua;
+    float: left;
+    margin-top:10px;
+}
+
+#barra-lateral{
+    background-color: black;
+    padding: 10px;
+    margin-top:10px;
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+}
+
+.elemento-lateral {
+    background-color: purple;
+    margin-top: 10px;
+}
+
+#menu-header {
+    float: right;
+    margin-top:20px;
+    margin-right: 20px;
+}
